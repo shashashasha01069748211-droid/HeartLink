@@ -9,7 +9,7 @@ import { GetMethod } from "../../response/ResponseMethod";
 
 export const Connect = () => {
   const [isReady, setIsReady] = useState(false);
-  const [dataConnect, setDataConnect] = useState("0");
+  const [dataConnect, setDataConnect] = useState("love");
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
 
